@@ -10,7 +10,7 @@ if ($d->j3) :
 	<div class="btn-group">';
 		<button <?php echo $d->commentdata;?> data-fabrik-starit-formid="<?php echo $d->formId;?>"
 			data-fabrik-starit="up" class="btn btn-small starit-up<?php echo $d->upActiveClass;?>">
-			<?php echo FabrikHelperHTML::image('starit-up', 'form', $d->tmpl); ?>
+			<?php echo FabrikHelperHTML::image('heart', 'form', $d->tmpl); ?>
 		<span class="starit-count"><?php echo $d->countUp;?>
 		</span>
 		</button>
